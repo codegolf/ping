@@ -1,0 +1,1 @@
+x=0;setInterval(function(){for(h=i=-x;i++<I;){if(i<10){h+="\n"}h+=" "}p.innerHTML=h+"_"},I=30);
