@@ -6,7 +6,8 @@ H = 297,
 X = Y =
 setInterval(function() {
     for (
-      K = Math.max(Math.min(24, K), h = ""),
+      h = "",
+      K = K < 0 ? 0 : K > 24 ? 24 : K,
       X *= x % W ? 1 : -1,
       x < W ?
         Y *= -1 :
