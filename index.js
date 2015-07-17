@@ -14,7 +14,9 @@ setInterval(function() {
       x < W ?
         -1 :
         x > H ? (
-          Math.abs(x - H - K - 2) < 2 ?
+          (
+          	Q = x - H - K - 2
+          ) * Q < 4 ?
             -1 :
             p
       ) : 1,
