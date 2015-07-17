@@ -9,13 +9,15 @@ setInterval(function() {
       i = h = "",
       K = K < 0 ? 0 : K > 24 ? 24 : K,
       X *= x % W ? 1 : -1,
-      x < W ?
-        Y *= -1 :
-        x > H && (
-          Y *= Math.abs(x - H - K - 2) < 2 ?
+
+      Y *=
+        x < W ?
+          -1 :
+          x > H ? (
+            Math.abs(x - H - K - 2) < 2 ?
             -1 :
             p
-        ),
+        ) : 1,
       x += Y * (W + X * Y);
       i++ < H + K;
     )
