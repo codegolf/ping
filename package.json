@@ -1,0 +1,12 @@
+{
+  "name": "pong",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  	"watch": "watchy -w ./ -i 'min.js' -s -- bash -c 'cat pong.js | uglifyjs -c > min.js; wc -c min.js; cat min.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
