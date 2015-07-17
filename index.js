@@ -20,8 +20,9 @@ setInterval(function() {
       ) : 1,
     x += Y * (W + X * Y);
     i++ < H + K;
+    p.innerText = h + 888
   )
     h += i % W ?
       i == x ? 0 : " " : "\n";
-  p.innerText = h + 888
+
 }, 99);
