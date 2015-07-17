@@ -6,7 +6,7 @@ H = 297,
 X = Y =
 setInterval(function() {
     for (
-      h = "",
+      i = h = "",
       K = K < 0 ? 0 : K > 24 ? 24 : K,
       X *= x % W ? 1 : -1,
       x < W ?
@@ -16,8 +16,7 @@ setInterval(function() {
             -1 :
             p
         ),
-      x += Y * (W + X * Y),
-      i = 0;
+      x += Y * (W + X * Y);
       i++ < H + K;
     )
       h += i % W ?
