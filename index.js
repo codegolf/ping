@@ -1,25 +1,27 @@
-x=0;
+/* eslint-disable */
+
+K = 13,
+x = W = 27,
+H = 297,
+X = Y =
 setInterval(function() {
+  for (
+    i = h = "",
+    K = K < 0 ? 0 : K > 24 ? 24 : K,
+    X *= x % W ? 1 : -1,
 
-//	x++;
-
-	for (h=i=-x; i++<I; ) {
-
-		// if (i < 0){
-		// 	h+= " "
-		// } else if (i == 0) {
-		// 	h+= "+";
-		// }
-
-
-		if (i < 10) {
-			h += "\n";
-		}
-
-
-		h += " ";
-	}
-
-	p.innerHTML = h + "_";
-
-},I=30);
+    Y *=
+      x < W ?
+        -1 :
+        x > H ? (
+          Math.abs(x - H - K - 2) < 2 ?
+            -1 :
+            p
+      ) : 1,
+    x += Y * (W + X * Y);
+    i++ < H + K;
+  )
+    h += i % W ?
+      i == x ? 0 : " " : "\n";
+  p.innerText = h + 888
+}, 99);

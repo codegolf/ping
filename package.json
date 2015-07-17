@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  	"watch": "watchy -w ./ -i 'min.js' -s -- bash -c 'cat pong.js | uglifyjs -c > min.js; wc -c min.js; cat min.js'",
+  	"watch": "watchy -w ./ -i 'min.js' -s -- bash -c 'cat index.js | uglifyjs -c > min.js; wc -c min.js; cat min.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
