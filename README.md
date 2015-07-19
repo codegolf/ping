@@ -4,7 +4,7 @@ A super minimalistic mix of the classic Pong and Breakout games (without the bri
 
 ### Demo
 
-[PLAY THE DEMO](http://rawgit.com/codegolf/pong/master/index.html)!
+[PLAY THE DEMO](http://rawgit.com/codegolf/ping/master/index.html)!
 
 Use your keyboard to control the paddle movement.
 
@@ -24,4 +24,4 @@ h+=i%W?i^x?" ":0:"|\\n"',99
 
 ### Gameplay Video
 
-![Ping](https://raw.githubusercontent.com/codegolf/pong/master/ping.gif)
+![Ping](https://raw.githubusercontent.com/codegolf/ping/master/ping.gif)
