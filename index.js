@@ -25,10 +25,12 @@ setInterval(function() {
             p
       ) : 1,
     x += Y * (W + X * Y);
+
     i++ < 297 + K;
+
     p.innerText = h + 888
   )
     h += i % W ?
-      i == x ? 0 : " " : "\n";
+      i ^ x ? " " : 0 : "\n";
 
 }, 99);
