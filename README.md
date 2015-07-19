@@ -22,6 +22,9 @@ h+=i%W?i^x?" ":0:"|\\n"',99
 38><pre id=p>
 ```
 
+See the [annotated source](https://github.com/codegolf/ping/blob/master/annotated.js) for details.
+
+
 ### Gameplay Video
 
 ![Ping](https://raw.githubusercontent.com/codegolf/ping/master/ping.gif)
