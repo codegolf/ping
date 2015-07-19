@@ -1,6 +1,6 @@
-# Pong Game in < 256 Bytes of HTML+JS
+# PING - A Game in < 256 Bytes of HTML+JS
 
-A super minimalistic clone of the classic Pong game in < 256 bytes of HTML and JS. Golfed by [@aemkei](http://aem1k.com).
+A super minimalistic mix of the classic Pong and Breakout games (without the briks) in < 256 bytes of HTML and JS. Golfed by [@aemkei](http://aem1k.com).
 
 ### Demo
 
@@ -24,4 +24,4 @@ h+=i%W?i^x?" ":0:"|\\n"',99
 
 ### Gameplay Video
 
-![Pac-Man](https://raw.githubusercontent.com/codegolf/pong/master/pong.gif)
+![Ping](https://raw.githubusercontent.com/codegolf/pong/master/ping.gif)
