@@ -1,6 +1,6 @@
 # PING - A Game in < 256 Bytes of HTML+JS
 
-A super minimalistic mix of the classic Pong and Breakout games (without the bricks) in < 256 bytes of HTML and JS. Golfed by [@aemkei](http://aem1k.com).
+A super minimalistic mix of the classic Pong and Breakout games (without the bricks) in < 256 bytes of HTML and JS. Golfed by [@aemkei](http://aem1k.com) and […](https://github.com/codegolf/ping/pulls).
 
 ### Demo
 
