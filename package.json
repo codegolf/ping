@@ -1,10 +1,10 @@
 {
-  "name": "pong",
+  "name": "ping",
   "description": "A minimalistic game in < 256 bytes of HTML and JS",
   "scripts": {
-  	"watch": "watchy -w ./annotated.js -i 'min.js' -s -- bash -c 'cat annotated.js | uglifyjs -c > min.js; wc -c min.js; cat min.js'"
+    "watch": "watchy -w ./annotated.js -i 'min.js' -s -- bash -c 'cat annotated.js | uglifyjs -c > min.js; wc -c min.js; cat min.js'"
   },
   "devDependencies": {
-    "watchy": "0.6.2"
+    "watchy": "^0.6.2"
   }
 }
