@@ -1,8 +1,6 @@
 /* eslint-disable */
-
 K = 13,
 x = W = 27,
-H = 297,
 X = Y =
 setInterval(function() {
   for (
@@ -13,15 +11,15 @@ setInterval(function() {
     Y *=
       x < W ?
         -1 :
-        x > H ? (
+        x > 297 ? (
           (
-          	Q = x - H - K - 2
+          	Q = x - 299 - K
           ) * Q < 4 ?
             -1 :
             p
       ) : 1,
     x += Y * (W + X * Y);
-    i++ < H + K;
+    i++ < 297 + K;
     p.innerText = h + 888
   )
     h += i % W ?
