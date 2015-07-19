@@ -31,6 +31,6 @@ setInterval(function() {
     p.innerText = h + 888
   )
     h += i % W ?
-      i ^ x ? " " : 0 : "\n";
+      i ^ x ? " " : 0 : "\n";
 
 }, 99);
