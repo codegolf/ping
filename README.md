@@ -8,17 +8,18 @@ A super minimalistic clone of the classic Pong game in < 256 bytes of HTML and J
 
 Use your keyboard to control the paddle movement.
 
-### Source (233 bytes)
+### Source (230 bytes)
 
 ```html
-<body onload=k=13,x=W=27,X=Y=
-1,setInterval('for(i=h="",k=k
-<0?0:24<k?24:k,X*=x%W?1:-1,Y*
-=x<0?-1:297<x?(Q=x-299-k)*Q<4
-?-1:p:1,x+=Y*(W+X*Y);i++<297+
-k;p.innerHTML=h+888)h+=i%W?i^
-x?" ":0:"|\\n"',99) onkeydown
-=k+=event.which-38><pre id=p>
+<body onload=k=13,x=W=27,X=
+Y=1,setInterval('for(i=h=""
+,k=k<0?0:24<k?24:k,X=x%W?X:
+-X,Y=x<0?1:297<x?(Q=x-299-k
+)*Q<4?-1:p:Y,x+=Y*(W+X*Y);i
+++<297+k;p.innerHTML=h+888)
+h+=i%W?i^x?" ":0:"|\\n"',99
+) onkeydown=k+=event.which-
+38><pre id=p>
 ```
 
 ### Gameplay Video

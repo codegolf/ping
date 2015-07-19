@@ -14,19 +14,19 @@ setInterval(function() {
     	24 < k ? 24 :
     	k,
 
-    X *= x % W ?                // reflect if ball hits wall
-    	1 :
-    	-1,
+    X = x % W ?                // reflect if ball hits wall
+    	X :
+    	-X,
 
-    Y *=                        // change Y direction
-      x < 0 ? -1 :              // reflect if ball hit top border
+    Y =                         // change Y direction
+      x < 0 ? 1 :               // reflect if ball hit top border
         297 < x ? (             // if ball hits bottom border ...
           (
           	Q = x - 299 - k     // calculate distance to paddle center
           ) * Q < 4 ?           // if distance^2 is less than four
             -1 :                // ... reflect up
             p                   // otherwise break the game
-      ) : 1,
+      ) : Y,
 
     x += Y * (W + X * Y);       // update ball position based on direction
 
