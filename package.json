@@ -1,12 +1,10 @@
 {
   "name": "pong",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A minimalistic game in < 256 bytes of HTML and JS",
   "scripts": {
-  	"watch": "watchy -w ./ -i 'min.js' -s -- bash -c 'cat index.js | uglifyjs -c > min.js; wc -c min.js; cat min.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  	"watch": "watchy -w ./annotated.js -i 'min.js' -s -- bash -c 'cat annotated.js | uglifyjs -c > min.js; wc -c min.js; cat min.js'"
   },
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "watchy": "0.6.2"
+  }
 }
