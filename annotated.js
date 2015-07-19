@@ -3,8 +3,9 @@
 k = 13,                         // initial paddle position
 x =                             // ball position
 W = 27,                         // board width
-X = Y =                         // ball x and y direction
+X = Y = 1;                      // ball x and y direction
 setInterval(function() {
+
   for (
     i =                         // iterator
     h = "",                     // output string
@@ -31,7 +32,7 @@ setInterval(function() {
 
     i++ < 297 + k;              // draw field and paddle offset
 
-    p.innerText = h + 888       // draw paddle
+    p.innerHTML = h + 888       // draw paddle
   )
     h +=                        // draw character
       i % W ?                   // if in bounds ...
