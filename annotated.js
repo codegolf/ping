@@ -23,9 +23,9 @@ setInterval(function() {
         297 < x ? (             // if ball hits bottom border ...
           1 % (
             x - 299 - k         // calculate distance to paddle center
-          ) ?                   // if distance is 0, 1, -1
-            p :                 // ... reflect up
-            -1                  // otherwise break the game
+          ) ?                   // if distance is not 0, 1, -1
+            p :                 // ... break the game
+            -1                  // otherwise reflect up
       ) : Y,
 
     x += Y * (W + X * Y);       // update ball position based on direction
