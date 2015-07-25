@@ -23,7 +23,7 @@ setInterval(function() {
         297 < x ? (             // if ball hits bottom border ...
           1 % (
             x - 299 - k         // calculate distance to paddle center
-          ) ?                   // if distance^2 is less than four
+          ) ?                   // if distance is 0, 1, -1
             p :                 // ... reflect up
             -1                  // otherwise break the game
       ) : Y,
